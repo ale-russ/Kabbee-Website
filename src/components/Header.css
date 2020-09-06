@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //<--background-color: #eee -->
+    
+
+}
+
+.header {
+    display: flex;
+    padding: 5px 5px 0px 0px;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+}
+
+.header__left > img{
+    display: flex;
+    height: 50px; 
+    padding-left: 0px;
+}
+
+.header__left {
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.header__center {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+.header__right {
+    display: flex;
+    justify-content: end;
+    border: 0px solid black;
+    padding: 3px 10px;
+    text-justify: auto;
+}
+
+.header__left,
+.header__center, 
+.header__right {
+    display: flex;
+    border: 1px solid black;
+    max-height: 70px;
+    //background-color: #2196f3
+}
+
+.kabbee {
+    padding: 4px 5px 0px;
+    font-family: apple-system;
+    font-style: oblique bold;
+}
+
+.join__kabbee{
+    padding: 15px 4px;
+    
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+.ul-header {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    padding-top: 20px
+}
+
+li.menu-item {
+    margin: 5px 25px;
+    padding-right: 7em;
+}
+
+/*
+a {
+   font-family: 'Franklin Gothic Medium';
+
+}
+*/
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 5px;
+    align-items: right;
+    right: 0px;
+}
+/*
+a:hover{
+    background-color: #eff2f5;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+*/
