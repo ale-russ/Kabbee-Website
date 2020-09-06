@@ -1,5 +1,5 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 //import logo from './src/imgs/logo.png';
 import "./style.css"
 import Button from '@material-ui/core/Button';
@@ -7,6 +7,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left" >
+                
                 <a href="..." className="left__link">
                     <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo"/>
                     <div className="kabbee">
@@ -31,7 +32,7 @@ function Header() {
             </div>
             <div className="header__right">
                 <div className="join__kabbee">
-                    <a href="...">Join Kabbee</a>
+                    <Link to="/loginRegister/">Join Kabbee</Link>
                 </div>
                 <div className="btn">              
                     <Button className="btn-header" variant="contained" color="primary">

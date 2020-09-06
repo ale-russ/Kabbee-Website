@@ -23,6 +23,7 @@
    display: flex;
    justify-content: space-evenly;
    flex-direction: column;
+   text-align: center;
 }
 
 .left__link > img {
@@ -32,8 +33,9 @@
 .header__center {
     display: flex;
     flex: 1;
-    justify-content: center;
-    align-items: left;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 5px 10px;
 }
 
 .header__right{
@@ -41,15 +43,16 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 0px 1px;
-    margin-top: 0px;
 }
 
 .header__left,
 .header__right,
 .header__center {
     border: 0px solid black;
-    margin-top: 0px;
+    margin-top: 1px;
     align-items: center;
+    text-align: center;
+    align-content: center;
 }
 
 .ul__header {
@@ -99,11 +102,12 @@
     object-fit: contain;
     float: left;
     width: 100vw;
-    margin-top: 80px;
+    margin-top: 10px;
     padding: 0px 0px;
     left: 0px;
     text-align: center;
     z-index: 100%;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
 
 .h1__div > h1 {
