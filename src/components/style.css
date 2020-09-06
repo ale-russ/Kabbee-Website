@@ -103,6 +103,7 @@
     float: left;
     width: 100vw;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 0px 0px;
     left: 0px;
     text-align: center;
@@ -132,7 +133,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    margin-bottom: 10px;
 }
 
 .h1__div > h1 {

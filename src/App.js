@@ -15,7 +15,8 @@ function App() {
     <React.Fragment className="App">
         <Router>
               <Header>
-              <Route path="/loginRegister/" component={ LoginRegister } />
+              <Route  path="/loginRegister/" 
+                      component={ LoginRegister } />
               </Header>
               <MainBody />
         </Router>
