@@ -117,6 +117,7 @@
     font-style: oblique;
 }
 
+/*
 .motto__div > {
     display: block;
     justify-content: space-evenly;
@@ -125,7 +126,7 @@
     width: 100vw;
     border: 1px solid black;
     position: fixed;
-}
+} */
 
 .btn__motto {
     display: flex;
