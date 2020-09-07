@@ -6,8 +6,10 @@ class Navbar extends Component {
     state = {  }
     render() { 
         return ( 
-            <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-            <Link to="/header/" className="nav-link"/>
+            <nav className="navbar">
+            <Link to="/header" className="nav-link"/>
+            <Link to="/index" className="nav-link"/>
+            
             </nav>
          );
     }

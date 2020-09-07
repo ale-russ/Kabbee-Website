@@ -5,8 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from './components/header';
 import MainBody from "./components/main__body";
-import LoginRegister from "./components/login-register"
-
+import LoginRegister from "./components/login-register";
 
 
 function App() {
@@ -14,11 +13,13 @@ function App() {
 
     <React.Fragment className="App">
         <Router>
-              <Header>
-              <Route  path="/loginRegister/" 
-                      component={ LoginRegister } />
-              </Header>
-              <MainBody />
+  
+          <Header>
+              <Route  path="/index">
+                   <LoginRegister /> 
+              </Route>
+          </Header>
+          <MainBody />
         </Router>
       </React.Fragment>
 
